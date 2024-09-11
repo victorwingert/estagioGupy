@@ -42,5 +42,16 @@ int main()
         cout << "A letra 'a' (maiuscula ou minuscula) nao foi encontrada." << endl;
     }
 
+    //Q3
+
+    int indice = 12, soma = 0, k = 1;
+
+    while(k < indice){
+        k = k + 1;
+        soma = soma + k;
+    }
+
+    cout << soma << endl;
+
     return 0;
 }
