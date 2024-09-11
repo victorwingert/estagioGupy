@@ -28,8 +28,19 @@ int main()
         cout << "O numero " << n << " nao pertence a sequencia de Fibonacci" << endl;
     }
 
+    //Q2
+    string a = "Abacate";
+    int c = 0;
 
+    for(int i = 0; i < a.length(); i++)
+        if(a[i] == 'a' || a[i] == 'A')
+            c++;
 
+    if (c > 0) {
+        cout << "A letra 'a' (maiuscula ou minuscula) aparece " << c << " vezes." << endl;
+    } else {
+        cout << "A letra 'a' (maiuscula ou minuscula) nao foi encontrada." << endl;
+    }
 
     return 0;
 }
